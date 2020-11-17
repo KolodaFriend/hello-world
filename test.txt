@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My HTML</title>
+	<script>
+		function chengeBackground(){
+			let color=document.body.style.backgroundColor;
+			if (color==="palegreen"){
+				color="coral";
+			} else{
+				color="palegreen";
+			}
+			document.body.style.backgroundColor=color;
+		}
+	</script>
+</head>
+<body style="background-color:aqua;">
+	<p>Привет! Это мой первый сайт на курсе от SkillFactory!</p>
+	<button onclick="chengeBackgrond()"
+	style="width:200px; height:50px; background-color:aquamarine; font-size:20px;">
+	Нажми меня!
+</button>
+	<h1 style="color:coral;">А вот тут будет кот!</h1>
+	<img src="https://i2.wp.com/tailytales.ru/wp-content/uploads/2019/06/pisco-0.jpg">
+</body>
+</html>
+
